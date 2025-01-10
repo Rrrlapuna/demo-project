@@ -20,7 +20,7 @@ function Sidebar() {
   };
 
   return (
-    <div className="flex">
+    <div className="flex hidden sm:table-cell">
       {/* Sidebar */}
       <div
         className={`${
@@ -119,7 +119,7 @@ function Sidebar() {
                   alt={menu.name}
                   className="w-5 h-5"
                   onError={(e) =>
-                    (e.target.src = "/assets/admin/placeholder.png") // Fallback image
+                    (e.target.src = "/src/assets/admin/placeholder.png") // Fallback image
                   }
                 />
                 <span
