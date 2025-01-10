@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import AddBusiness from "../admin/AddBusiness";
+import AddBusiness from "../modal/AddBusiness";
 
 const ClientDetails = () => {
   const [showModel, setShowModel] = useState(false);
