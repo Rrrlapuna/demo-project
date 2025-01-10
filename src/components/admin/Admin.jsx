@@ -10,7 +10,7 @@ const Admin = () => {
       <Sidebar />
 
       {/* Content Area */}
-      <div className=" flex-1 p-7 bg-gray-100">
+      <div className="flex-1 p-7 bg-gray-100">
         {/* This will render the content based on the current route */}
         <Outlet />
       </div>
