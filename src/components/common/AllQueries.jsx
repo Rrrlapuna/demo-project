@@ -64,7 +64,7 @@ const AllQueries = () => {
   };
 
   return (
-    <div className="">
+    <div className=" grid ">
       <h1 className="text-xl font-semibold mb-4">All Queries</h1>
 
       <div className="shadow-md rounded-lg bg-white p-4">

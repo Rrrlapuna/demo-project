@@ -91,7 +91,7 @@ const ClientDetails = () => {
   ];
 
   return (
-    <div className="h-screen overflow-y-scroll bg-gray-100">
+    <div className="h-screen overflow-y-scroll bg-gray-100 grid ">
       {/* Header Section */}
       <div className="mb-4">
         <h1 className="text-2xl font-bold">Business Details</h1>

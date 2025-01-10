@@ -4,11 +4,11 @@ import React from "react";
 const Dashboard = () => {
   return (
     <div>
-      <div className="min-h-screen w-  bg-gray-100 p-8">
+      <div className="min-h-screen bg-gray-100 p-0 lg-p-8 ">
         <h1 className="text-3xl font-bold mb-8">Admin Dashboard</h1>
 
         {/* Statistics Section */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
           <div className="bg-blue-500 text-white p-6 rounded-lg shadow-md">
             <h2 className="text-lg font-semibold">Active Users</h2>
             <p className="text-4xl font-bold">39</p>
