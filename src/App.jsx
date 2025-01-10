@@ -17,6 +17,7 @@ const App = () => {
           {/* Nested routes for /admin */}
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="client-details" element={<ClientDetails />} />
+          {/* <Route path="category-details" element={<CategoryDetails />} /> */}
         </Route>
       </Routes>
     </BrowserRouter>
