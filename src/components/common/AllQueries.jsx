@@ -16,6 +16,27 @@ const AllQueries = () => {
       phoneNumber: "7077077547",
       message: "Hiii",
     },
+    {
+      id: 3,
+      name: "Rashmi ranjan Rout",
+      email: "rashmiranjana.rout2001@gmail.com",
+      phoneNumber: "7077077547",
+      message: "Hiii",
+    },
+    {
+      id: 4,
+      name: "Rashmi ranjan Rout",
+      email: "rashmiranjana.rout2001@gmail.com",
+      phoneNumber: "7077077547",
+      message: "Hiii",
+    },
+    {
+      id: 5,
+      name: "Rashmi ranjan Rout",
+      email: "rashmiranjana.rout2001@gmail.com",
+      phoneNumber: "7077077547",
+      message: "Hiii",
+    },
   ]);
   const [search, setSearch] = useState("");
   const [rowsPerPage, setRowsPerPage] = useState(10);

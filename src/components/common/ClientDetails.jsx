@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import Modal from "../../components/admin/Modal";
+import AddBusiness from "../admin/AddBusiness";
 
 const ClientDetails = () => {
   const [showModel, setShowModel] = useState(false);
@@ -91,7 +91,7 @@ const ClientDetails = () => {
   ];
 
   return (
-    <div className="h-screen overflow-y-scroll bg-gray-100 p-6">
+    <div className="h-screen overflow-y-scroll bg-gray-100">
       {/* Header Section */}
       <div className="mb-4">
         <h1 className="text-2xl font-bold">Business Details</h1>
@@ -99,7 +99,7 @@ const ClientDetails = () => {
           <button onClick={openModal} className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
             Add Business
           </button>
-         {showModel &&  <Modal  closeModal = {closeModal} />}
+         {showModel &&  <AddBusiness  closeModal = {closeModal} />}
           <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
             Upload Excel
           </button>
