@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const Modal = ({ closeModal }) => {
+const AddBusiness = ({ closeModal }) => {
   const [isVisible, setIsVisible] = useState(false);
 
   // Trigger animation on mount
@@ -80,4 +80,4 @@ const Modal = ({ closeModal }) => {
   );
 };
 
-export default Modal;
+export default AddBusiness;
