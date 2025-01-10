@@ -20,7 +20,7 @@ function Sidebar() {
   };
 
   return (
-    <div className="flex hidden sm:table-cell">
+    <div className="hidden sm:flex">
       {/* Sidebar */}
       <div
         className={`${

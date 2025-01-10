@@ -14,7 +14,7 @@ const AllQueries = () => {
       name: "Rashmi ranjan Rout",
       email: "rashmiranjana.rout2001@gmail.com",
       phoneNumber: "7077077547",
-      message: "qwert",
+      message: "Hiii",
     },
   ]);
   const [search, setSearch] = useState("");
