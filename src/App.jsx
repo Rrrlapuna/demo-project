@@ -2,15 +2,15 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Home from "./pages/Home/Home";
 import Admin from "./components/admin/Admin";
-import Dashboard from "./components/common/Dashboard";
-import ClientDetails from "./components/common/ClientDetails";
-import CategoryDetails from "./components/common/CategoryDetails";
-import BusinessClaims from "./components/common/BusinessClaims";
-import AllQueries from "./components/common/AllQueries";
-import DeleteBusiness from "./components/common/DeleteBusiness";
-import PendingBusiness from "./components/common/PendingBusiness";
-import Congratulations from "./components/common/Congratulations";
-import Logout from "./components/common/Logout";
+import Dashboard from "./components/pages/Dashboard";
+import ClientDetails from "./components/pages/ClientDetails";
+import CategoryDetails from "./components/pages/CategoryDetails";
+import BusinessClaims from "./components/pages/BusinessClaims";
+import AllQueries from "./components/pages/AllQueries";
+import DeleteBusiness from "./components/pages/DeleteBusiness";
+import PendingBusiness from "./components/pages/PendingBusiness";
+import Congratulations from "./components/pages/Congratulations";
+import Logout from "./components/pages/Logout";
 import { Navigate } from "react-router-dom";
 
 
