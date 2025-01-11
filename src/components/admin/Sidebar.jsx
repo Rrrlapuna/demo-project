@@ -46,7 +46,7 @@ function Sidebar() {
             alt="logo"
           />
           <h1
-            className={`text-black origin-left font-bold text-2xl duration-200 ${
+            className={`text-customBlue origin-left font-bold text-2xl duration-200 ${
               !open && "scale-0"
             }`}>
             Beezinfo

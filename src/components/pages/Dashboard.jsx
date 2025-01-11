@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const Dashboard = () => {
   return (
     <div>
@@ -28,22 +27,23 @@ const Dashboard = () => {
         </div>
 
         {/* Buttons Section */}
-
-        <button className="w-full  sm:w-auto bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg shadow-md">
-          Add Content-Creator
-        </button>
-        <br />
-        <button className="w-full my-5 sm:w-auto bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-4 rounded-lg shadow-md">
-          Show Ad Request
-        </button>
-        <br />
-        <button className="w-full  sm:w-auto bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg shadow-md">
-          Ads Section
-        </button>
-        <br />
-        <button className="w-full my-5 sm:w-auto bg-cyan-500 hover:bg-cyan-600 text-white py-2 px-4 rounded-lg shadow-md">
-          Manage Greetings
-        </button>
+        <div className="">
+          <button className="w-full  sm:w-auto bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg shadow-md">
+            Add Content-Creator
+          </button>
+          <br />
+          <button className="w-full my-5 sm:w-auto bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-4 rounded-lg shadow-md">
+            Show Ad Request
+          </button>
+          <br />
+          <button className="w-full  sm:w-auto bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg shadow-md">
+            Ads Section
+          </button>
+          <br />
+          <button className="w-full my-5 sm:w-auto bg-cyan-500 hover:bg-cyan-600 text-white py-2 px-4 rounded-lg shadow-md">
+            Manage Greetings
+          </button>
+        </div>
       </div>
     </div>
   );
