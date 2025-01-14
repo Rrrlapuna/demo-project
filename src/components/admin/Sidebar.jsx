@@ -25,7 +25,7 @@ function Sidebar() {
       <div
         className={`${
           open ? "w-72" : "w-20"
-        } bg-dark-purple h-screen p-5 pt-8 relative duration-300`}>
+        } bg-dark-purple h-screen p-3 pt-8 relative duration-300`}>
         {/* Toggle Button */}
         <img
           src="/src/assets/admin/control.png" // Adjusted path to public folder
@@ -40,7 +40,7 @@ function Sidebar() {
         <div className="flex gap-x-4 items-center">
           <img
             src="/src/assets/admin/beez-main-logo.svg" // Adjusted path to public folder
-            className={`cursor-pointer duration-500 w-10 ${
+            className={`cursor-pointer duration-500 w-12 ${
               open && "rotate-[360deg]"
             }`}
             alt="logo"
