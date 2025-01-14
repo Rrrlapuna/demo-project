@@ -9,8 +9,7 @@ const CategoryDetails = () => {
     { id: 5, name: "Public Speaking and Coaching" },
     { id: 6, name: "Eco-Friendly Products" },
     { id: 7, name: "Craft Breweries and Wineries" },
- 
-   
+
     // Add more categories as needed
   ];
 
@@ -41,14 +40,19 @@ const CategoryDetails = () => {
         </button>
       </div>
       <hr /> <br />
-   
       <div className="overflow-x-auto">
         <table className="min-w-full border-collapse border border-gray-300">
           <thead>
             <tr className="bg-gray-100">
-              <th className="border border-gray-300 px-4 py-2 text-left">Sl No</th>
-              <th className="border border-gray-300 px-4 py-2 text-left">Category Name</th>
-              <th className="border border-gray-300 px-4 py-2 text-center">Actions</th>
+              <th className="border border-gray-300 px-4 py-2 text-left">
+                Sl No
+              </th>
+              <th className="border border-gray-300 px-4 py-2 text-left">
+                Category Name
+              </th>
+              <th className="border border-gray-300 px-4 py-2 text-center">
+                Actions
+              </th>
             </tr>
           </thead>
           <tbody>
@@ -57,18 +61,18 @@ const CategoryDetails = () => {
                 <td className="border border-gray-300 px-4 py-2">
                   {indexOfFirstItem + index + 1}
                 </td>
-                <td className="border border-gray-300 px-4 py-2">{category.name}</td>
+                <td className="border border-gray-300 px-4 py-2">
+                  {category.name}
+                </td>
                 <td className="border border-gray-300 px-4 py-2 text-center">
                   <button
                     className="bg-yellow-500 text-white px-3 py-1 rounded mr-2 hover:bg-yellow-600"
-                    onClick={() => console.log(`Edit ${category.name}`)}
-                  >
+                    onClick={() => console.log(`Edit ${category.name}`)}>
                     Edit
                   </button>
                   <button
                     className="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600"
-                    onClick={() => console.log(`Delete ${category.name}`)}
-                  >
+                    onClick={() => console.log(`Delete ${category.name}`)}>
                     Delete
                   </button>
                 </td>
@@ -86,8 +90,7 @@ const CategoryDetails = () => {
               : "bg-blue-500 text-white hover:bg-blue-600"
           }`}
           onClick={handlePreviousPage}
-          disabled={currentPage === 1}
-        >
+          disabled={currentPage === 1}>
           Previous
         </button>
         <span className="text-gray-700">
@@ -100,8 +103,7 @@ const CategoryDetails = () => {
               : "bg-blue-500 text-white hover:bg-blue-600"
           }`}
           onClick={handleNextPage}
-          disabled={currentPage === totalPages}
-        >
+          disabled={currentPage === totalPages}>
           Next
         </button>
       </div>
