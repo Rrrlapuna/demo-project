@@ -40,7 +40,7 @@ function Sidebar() {
         <div className="flex gap-x-4 items-center">
           <img
             src="/src/assets/admin/beez-main-logo.svg" // Adjusted path to public folder
-            className={`cursor-pointer duration-500 w-12 ${
+            className={`cursor-pointer duration-300 w-12 pl-1 ${
               open && "rotate-[360deg]"
             }`}
             alt="logo"
